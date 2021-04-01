@@ -1,2 +1,2 @@
-# Simple-Nitro-Sniper
+# Ryu Nitro Sniper
 Simple nitro sniper, Originally wrote by me.
