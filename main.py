@@ -41,5 +41,5 @@ async def on_message(message):
     except AttributeError:
         pass
 
-#THIS WAS ORIGINALLY WROTE BY chucky#1337
+#THIS WAS ORIGINALLY WROTE BY Tracey#0004
 Ryu.run(worker, bot=False)
