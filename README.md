@@ -1,5 +1,5 @@
 # Ryu Nitro Sniper
-Simple nitro sniper, Originally wrote by chucky#1337.
+Simple nitro sniper, Originally wrote by Tracey#0004.
 
 1. How to use.
 2. Put your Alt Account token in the 'worker' quatation marks.
