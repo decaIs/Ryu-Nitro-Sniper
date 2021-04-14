@@ -27,7 +27,7 @@ async def on_message(message):
             f'https://discordapp.com/api/v8/entitlements/gift-codes/{epic}/redeem', headers=headers)
 
             if '{"message": "Unknown Gift Code", "code": 10038}' in r.text:
-                print(x + Fore.RED + f'| This code is fake! | {message.guild} | {message.author}')
+                print(x + Fore.RED + f'| This code is fake! | {message.guild} | {message.author}'
             elif '{"message": "This gift has already been Reddemed.", "code": 50050}' in r.text:
                 print(x + Fore.YELLOW + f'| The code was already Redeemed by someone. | {message.guild} | {message.author}')
             elif 'Rate Limited' in r.text:
@@ -41,5 +41,5 @@ async def on_message(message):
     except AttributeError:
         pass
 
-#THIS WAS ORIGINALLY WROTE BY Tracey#0004
+#THIS WAS ORIGINALLY WROTE BY Jah
 Ryu.run(worker, bot=False)
