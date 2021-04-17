@@ -41,5 +41,5 @@ async def on_message(message):
     except AttributeError:
         pass
 
-#THIS WAS ORIGINALLY WROTE BY Jah
+#THIS WAS ORIGINALLY WROTE BY Spider
 Ryu.run(worker, bot=False)
